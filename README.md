@@ -116,4 +116,3 @@ This project is open-source and available under the MIT License.
 
 =======
 
->>>>>>> 2db96f0 (Your descriptive commit message)
