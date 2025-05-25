@@ -115,6 +115,5 @@ This project is open-source and available under the MIT License.
 
 
 =======
-Let me know if you want this converted into a live React page or auto-generated from your project files.
-```
+
 >>>>>>> 2db96f0 (Your descriptive commit message)
