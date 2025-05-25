@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Python, Javascript, HTML, CSS, and React . </b>
+                <b className="purple">Javascript, HTML, CSS, React, Node.js and MongoDB . </b>
               </i>
               <br />
               <br />
