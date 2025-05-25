@@ -17,54 +17,53 @@ Welcome to **Onlive Main**, a fully responsive personal portfolio website built 
 
 ## 📁 Folder Structure
 
+<div style="display: flex; gap: 40px; align-items: flex-start;">
+
+<div>
+
+```text
 onlive-main/
 ├── public/
 ├── src/
-│ ├── Assets/
-│ ├── Components/
-│ ├── Pages/
-│ ├── Particle.js
-│ └── App.js
-├── .gitignore
-├── README.md
-├── package.json
-└── ...
+│   ├── Assets/
+│   ├── Components/
+│   ├── Pages/
+│   ├── Particle.js
+│   └── App.js
 
----
+</div> <div>
 
-## 🛠️ Tech Stack
+🛠️ Tech Stack
 
-- **React.js** – Front-end library
-- **React Bootstrap** – UI components
-- **react-pdf** – Resume viewer
-- **react-icons** – Icons (e.g., download button)
-- **CSS** – Custom styling
+    React.js – Front-end library
 
----
+    React Bootstrap – UI components
 
-## 📄 Live Preview
+    react-pdf – Resume viewer
 
-👉 **[Live Demo](#)** _(saabik.netlify.app)_
+    react-icons – Icons (e.g., download button)
 
----
+    CSS – Custom styling
 
-## 📥 Installation
+📄 Live Preview
 
-1. **Clone the repo**
+👉 Live Demo
 
-   ```bash
-   git clone https://github.com/sabik-ahmd/onlive-main.git
-   cd onlive-main
 
-   ```
+📥 Installation
 
-2. Install dependencies
-   npm install
+1. Clone the repository
+git clone https://github.com/sabik-ahmd/onlive-main.git
+cd onlive-main
 
-3. Start the development server
-   npm start
 
-📤 Deployment
+2.Install dependencies
+npm install
+
+3.Start the development server
+npm start
+
+🚀 Deployment Options
 
 You can deploy this project using:
 
@@ -76,21 +75,30 @@ You can deploy this project using:
 
 👨‍💻 Author
 
-Sabik
-📧 Email me
+Sabik Ahmad
+📧 Email: sabik.mh@gmail.com
 🔗 GitHub Profile
 📃 License
 
 This project is open-source and available under the MIT License.
+✅ How to Use
+
+    Create a file called README.md in your project root.
+
+    Copy-paste the content above.
+
+    Update the relevant fields:
+
+        Website link (https://saabik.netlify.app)
+
+        Email address (sabik.mh@gmail.com)
+
+        GitHub username (sabik-ahmd)
+
+💡 Let me know if you’d like to add dynamic badges, GIFs, or a markdown-based embedded resume.
 
 ---
 
-### ✅ How to Use
+Let me know if you want this converted into a live React page or auto-generated from your project files.
+```
 
-1. Create a file called `README.md` in your project root.
-2. Copy-paste the content above.
-3. Update:
-   - saabik.netlify.app
-   - sabik.mh@gmail.com
-
-Let me know if you'd like a version with screenshots, badges, or a markdown resume embed!
