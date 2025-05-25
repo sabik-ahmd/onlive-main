@@ -5,9 +5,10 @@ import Particle from "../Particle";
 //import leaf from "../../Assets/Projects/leaf.png";
 //import emotion from "../../Assets/Projects/emotion.png";
 //import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/text.png";
+import chatify from "../../Assets/Projects/sabik2.png";
 import system from "../../Assets/Projects/system.png";
 import job from "../../Assets/Projects/job.png";
+import scrnsht from "../../Assets/Projects/scrnsht.png";
 
 function Projects() {
   return (
@@ -21,13 +22,33 @@ function Projects() {
           Here are a projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+                  <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={scrnsht}
+              isBlog={false}
+              title="personal website"
+              description="On this portfolio, you’ll find:
+
+                            About Me – Learn more about who I am, my background, and what drives me as a developer.
+
+                            Projects – A collection of my best work, including live demos and source code, highlighting my experience with technologies like HTML, CSS, JavaScript, React, and more.
+
+                            Skills – A breakdown of the front-end and back-end tools I’m familiar with.
+
+                            Contact – Ways to connect with me for collaborations, job opportunities, or freelance work."
+              ghLink="https://github.com/sabik-ahmd/onlive-main.git"             
+              
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
               title="Textutils"
               description="TextUtils is a ReactJs website built primarily to do various operations on regular typed text. You can safely use WordPad or NotePad for text drafting, and saving, but TextUtils offers much more than simple text drafting and formatting. TextUtils can convert your text to any case in just one simple click of a button. "
-              ghLink="https://github.com/sabik-ahmd/textutils.git"
+              ghLink=""
             />
           </Col>
 
@@ -36,7 +57,7 @@ function Projects() {
               imgPath={job}
               isBlog={false}
               title="Part Time Job Portal"
-              description="Developed a full stack dynamic job platform for college students and recruiters using React Framework . Ensured seamless user interaction and efficient hiring processes through a well-designed backend architecture"
+              description="Part Time Job Portal is a full-stack dynamic job platform built using the React framework, aimed at connecting college students with recruiters. It enables seamless user interaction and supports efficient hiring through a robust backend architecture. The portal streamlines job searches and applications, providing an effective and user-friendly environment for both students and employers."
               
             />
           </Col>

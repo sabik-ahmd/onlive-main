@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Ahammad sabik </span>
             from <span className="purple"> Manglore (Puttur) , India.</span>
             <br />
-            I am currently developing my skills as a full-stack developer.
+            I am currently developing my skills as a MERN-stack developer.
             <br />
             I have completed BSc in Maths and Computer Science .
             <br />
