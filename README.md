@@ -95,10 +95,4 @@ This project is open-source and available under the MIT License.
 
         GitHub username (sabik-ahmd)
 
-💡 Let me know if you’d like to add dynamic badges, GIFs, or a markdown-based embedded resume.
-
----
-
-Let me know if you want this converted into a live React page or auto-generated from your project files.
-```
 
