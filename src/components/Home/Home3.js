@@ -1,6 +1,32 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Home3 = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_rxub9kl',      // Replace with your EmailJS service ID
+        'template_1gb82xd',     // Replace with your EmailJS template ID
+        form.current,
+        'pwHspfsaItxnBOYh7'       // Replace with your EmailJS public key (user ID)
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert('Message sent successfully!');
+          form.current.reset();
+        },
+        (error) => {
+          console.log(error.text);
+          alert('Failed to send message. Please try again later.');
+        }
+      );
+  };
+
   return (
     <section className="w-full px-6 py-16 bg-transparent text-white">
       <div className="max-w-xl mx-auto text-center">
@@ -10,10 +36,11 @@ const Home3 = () => {
         </p>
 
         {/* Contact Form */}
-        <form className="space-y-6">
+        <form ref={form} onSubmit={sendEmail} className="space-y-6">
           <div>
             <input
               type="text"
+              name="user_name"
               placeholder="Name"
               className="w-full px-4 py-3 border border-gray-600 bg-transparent text-white rounded-lg focus:ring-2 focus:ring-purple-500 focus:outline-none"
               required
@@ -22,6 +49,7 @@ const Home3 = () => {
           <div>
             <input
               type="email"
+              name="user_email"
               placeholder="Email"
               className="w-full px-4 py-3 border border-gray-600 bg-transparent text-white rounded-lg focus:ring-2 focus:ring-purple-500 focus:outline-none"
               required
@@ -29,6 +57,7 @@ const Home3 = () => {
           </div>
           <div>
             <textarea
+              name="message"
               rows="5"
               placeholder="Message"
               className="w-full px-4 py-3 border border-gray-600 bg-transparent text-white rounded-lg resize-none focus:ring-2 focus:ring-purple-500 focus:outline-none"

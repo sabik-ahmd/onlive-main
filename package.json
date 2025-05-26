@@ -4,6 +4,7 @@
     "private": true,
     "homepage": "https://sabik-web.netlify.app/",
     "dependencies": {
+        "@emailjs/browser": "^4.4.1",
         "@react-pdf/renderer": "^2.2.0",
         "@testing-library/jest-dom": "^5.16.2",
         "@testing-library/react": "^12.1.4",
