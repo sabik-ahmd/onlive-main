@@ -7,7 +7,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn, FaPhone, FaWhatsapp } from "react-icons/fa";
+import { FaLinkedinIn, FaPhone, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -58,6 +58,16 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
+            <li className="social-icons">
+                <a
+                  href="mailto:sabik.mh@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaEnvelope />
+                </a>
+              </li>
             <li className="social-icons">
                 <a
                   href="https://wa.me/9686893983"

@@ -49,10 +49,6 @@ function Projects() {
               title="Textutils"
               description="TextUtils is a ReactJS-based website designed for performing various operations on typed text. While basic tools like WordPad or NotePad are useful for drafting and saving text, TextUtils offers advanced features. It allows users to manipulate their text efficiently, including converting it to different cases with just a single click, making it a powerful alternative to traditional text editors. "
               ghLink="https://github.com/sabik-ahmd/textutils.git"
-=======
-              description="TextUtils is a ReactJs website built primarily to do various operations on regular typed text. You can safely use WordPad or NotePad for text drafting, and saving, but TextUtils offers much more than simple text drafting and formatting. TextUtils can convert your text to any case in just one simple click of a button. "
-              ghLink=""
->>>>>>> 9c884f8 (Your descriptive commit message)
             />
           </Col>
 

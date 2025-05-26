@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/sabi.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import Home3 from "./Home3";
 
 function Home() {
   return (
@@ -42,6 +43,7 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+      <Home3 />
     </section>
   );
 }
